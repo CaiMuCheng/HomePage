@@ -2,4 +2,5 @@
 Demo Site: [Here](https://sumucheng.mucute.cn)
 
 ## Screenshots
-![Screenshot](/images/cover.jpg)
+<div style="overflow: hidden">
+    <img src="images/cover.jpg" width="40%" align="bottom" alt="Screenshot"/>
