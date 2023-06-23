@@ -1,0 +1,30 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: white;
+    transition: 0.5s;
+    -webkit-box-shadow: rgba(0, 0, 0, .1) 0 10px 30px;
+    -moz-box-shadow: rgba(0, 0, 0, .1) 0 10px 30px;
+    box-shadow: rgba(0, 0, 0, .1) 0 10px 30px;
+}
+
+.card:hover {
+    -webkit-box-shadow: rgba(0, 0, 0, .2) 0 10px 30px;
+    -moz-box-shadow: rgba(0, 0, 0, .2) 0 10px 30px;
+    box-shadow: rgba(0, 0, 0, .2) 0 10px 30px;
+}
+
+.cardTitle {
+    font-size: 1rem;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.cardDescription {
+    margin-top: 5px;
+    font-size: 0.8rem;
+    color: rgba(0,0,0,.5);
+}
